@@ -10,6 +10,7 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import {} from "googlemaps";
 
 @Component
 export default class Map extends Vue {
@@ -18,25 +19,45 @@ export default class Map extends Vue {
   @Prop()
   private subtitle!: string;
 
-  created() {
-   
-    
-  }
+  created() {}
 
   mounted() {
     this.initMap();
   }
 
-  initMap(){
-    var uluru = { lat: -25.344, lng: 131.036 };
-    var scrippsBeach = { lat: 32.863658, lng: -117.254610 };
+  initMap() {
+    var weddingEventLocations = [
+      {
+        name: "Scripps Beach",
+        position: new google.maps.LatLng(32.863658, -117.25461),
+        icon: "https://static.thenounproject.com/png/1739948-200.png"
+      },
+      {
+        name: "Pelican's Cove",
+        position: new google.maps.LatLng(32.863423, -117.253572),
+        icon: "https://static.thenounproject.com/png/1059290-200.png"
+      }
+    ];
+
     // The map, centered at Uluru
     var map = new google.maps.Map(document.getElementById("map"), {
       zoom: 14,
-      center: scrippsBeach
+      center: weddingEventLocations[0].position
     });
     // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({ position: scrippsBeach, map: map });
+    // var marker = new google.maps.Marker({
+    //   position: scrippsBeachPosition,
+    //   map: map
+    // });
+
+    weddingEventLocations.forEach( function(location) {
+      var marker = new google.maps.Marker({
+        position: location.position,
+        title: location.name,
+        map: map,
+        label: location.name
+      });
+    })
   }
 }
 </script>
