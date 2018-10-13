@@ -1,26 +1,21 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Timeline</h1>
 
-    <h3>Installed CLI Plugins</h3>
+    <h3>Thursday, November 1st</h3>
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript" target="_blank" rel="noopener">typescript</a></li>
+      <li>3:00 p.m. Bonfire and Tacos at Scripps Beach <span>This event is optional, come whenever!</span></li>
     </ul>
-    <h3>Essential Links</h3>
+    <h3>Friday, November 2nd</h3>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
+      <li>4:00 p.m. Arrive at Scripps Seaside Forum</li>
+      <li>4:30 p.m. Ceremony</li>
+      <li>6:30 p.m. Dinner</li>
+      <li>10:00 p.m. After party at Beaumont's</li>
     </ul>
-    <h3>Ecosystem</h3>
+    <h3>Saturday, November 3rd</h3>
     <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+      <li>10:00 a.m. Breakfast at Pelicans Cove <span>This event is optional, come whenever!</span></li>
     </ul>
   </div>
 </template>
@@ -35,8 +30,13 @@ ul {
   padding: 0;
 }
 li {
-  display: inline-block;
+  display: block;
   margin: 0 10px;
+}
+
+li span {
+  font-style: italic;
+  font-size: 10px;
 }
 a {
   color: #42b983;
