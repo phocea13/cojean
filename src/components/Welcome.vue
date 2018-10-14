@@ -15,7 +15,7 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
-export default class HelloWorld extends Vue {
+export default class Welcome extends Vue {
   @Prop() private msg!: string;
   @Prop() private subtitle!: string;
 }
