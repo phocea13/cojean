@@ -34,7 +34,7 @@ export default class Map extends Vue {
         icon: {
           url: require("../assets/Bonfire_30x30.png"),
           anchor: new google.maps.Point(15, 15),
-          labelOrigin: new google.maps.Point(15, -10)
+          labelOrigin: new google.maps.Point(15, -10),
         }
       },
       {
@@ -43,7 +43,7 @@ export default class Map extends Vue {
         icon: {
           url: require("../assets/Croissant_30x30.png"),
           anchor: new google.maps.Point(15, 0),
-          labelOrigin: new google.maps.Point(15, 40)
+          labelOrigin: new google.maps.Point(15, 40),
         }
       },
       {
@@ -52,7 +52,7 @@ export default class Map extends Vue {
         icon: {
           url: require("../assets/Rings_30x30.png"),
           anchor: new google.maps.Point(15, 0),
-          labelOrigin: new google.maps.Point(15, -10)
+          labelOrigin: new google.maps.Point(15, -10),
         }
       },
       {
@@ -61,7 +61,7 @@ export default class Map extends Vue {
         icon: {
           url: require("../assets/Celebrate_30x30.png"),
           anchor: new google.maps.Point(15, 0),
-          labelOrigin: new google.maps.Point(15, -10)
+          labelOrigin: new google.maps.Point(15, -10),
         }
       }
     ];
@@ -75,24 +75,24 @@ export default class Map extends Vue {
           elementType: "geometry",
           stylers: [
             {
-              color: "#ebe3cd"
-            }
+              color: "#ebe3cd",
+            },
           ]
         },
         {
           elementType: "labels.text.fill",
           stylers: [
             {
-              color: "#523735"
-            }
+              color: "#523735",
+            },
           ]
         },
         {
           elementType: "labels.text.stroke",
           stylers: [
             {
-              color: "#f5f1e6"
-            }
+              color: "#f5f1e6",
+            },
           ]
         },
         {
@@ -100,8 +100,8 @@ export default class Map extends Vue {
           elementType: "geometry",
           stylers: [
             {
-              visibility: "off"
-            }
+              visibility: "off",
+            },
           ]
         },
         {
@@ -109,8 +109,8 @@ export default class Map extends Vue {
           elementType: "geometry.stroke",
           stylers: [
             {
-              color: "#c9b2a6"
-            }
+              color: "#c9b2a6",
+            },
           ]
         },
         {
@@ -118,8 +118,8 @@ export default class Map extends Vue {
           elementType: "geometry.stroke",
           stylers: [
             {
-              color: "#dcd2be"
-            }
+              color: "#dcd2be",
+            },
           ]
         },
         {
@@ -127,8 +127,8 @@ export default class Map extends Vue {
           elementType: "labels",
           stylers: [
             {
-              visibility: "off"
-            }
+              visibility: "off",
+            },
           ]
         },
         {
@@ -137,7 +137,7 @@ export default class Map extends Vue {
           stylers: [
             {
               color: "#ae9e90"
-            }
+            },
           ]
         },
         {
@@ -145,16 +145,16 @@ export default class Map extends Vue {
           elementType: "geometry",
           stylers: [
             {
-              color: "#dfd2ae"
-            }
+              color: "#dfd2ae",
+            },
           ]
         },
         {
           featureType: "poi",
           stylers: [
             {
-              visibility: "off"
-            }
+              visibility: "off",
+            },
           ]
         },
         {
@@ -162,8 +162,8 @@ export default class Map extends Vue {
           elementType: "geometry",
           stylers: [
             {
-              color: "#dfd2ae"
-            }
+              color: "#dfd2ae",
+            },
           ]
         },
         {
@@ -171,8 +171,8 @@ export default class Map extends Vue {
           elementType: "labels.text",
           stylers: [
             {
-              visibility: "off"
-            }
+              visibility: "off",
+            },
           ]
         },
         {
@@ -180,8 +180,8 @@ export default class Map extends Vue {
           elementType: "labels.text.fill",
           stylers: [
             {
-              color: "#93817c"
-            }
+              color: "#93817c",
+            },
           ]
         },
         {
@@ -189,8 +189,8 @@ export default class Map extends Vue {
           elementType: "geometry.fill",
           stylers: [
             {
-              color: "#a5b076"
-            }
+              color: "#a5b076",
+            },
           ]
         },
         {
@@ -198,8 +198,8 @@ export default class Map extends Vue {
           elementType: "labels.text.fill",
           stylers: [
             {
-              color: "#447530"
-            }
+              color: "#447530",
+            },
           ]
         },
         {
@@ -207,8 +207,8 @@ export default class Map extends Vue {
           elementType: "geometry",
           stylers: [
             {
-              color: "#f5f1e6"
-            }
+              color: "#f5f1e6",
+            },
           ]
         },
         {
@@ -216,8 +216,8 @@ export default class Map extends Vue {
           elementType: "labels.icon",
           stylers: [
             {
-              visibility: "off"
-            }
+              visibility: "off",
+            },
           ]
         },
         {
@@ -225,8 +225,8 @@ export default class Map extends Vue {
           elementType: "geometry",
           stylers: [
             {
-              color: "#fdfcf8"
-            }
+              color: "#fdfcf8",
+            },
           ]
         },
         {
@@ -234,8 +234,8 @@ export default class Map extends Vue {
           elementType: "geometry",
           stylers: [
             {
-              color: "#f8c967"
-            }
+              color: "#f8c967",
+            },
           ]
         },
         {
@@ -243,8 +243,8 @@ export default class Map extends Vue {
           elementType: "geometry.stroke",
           stylers: [
             {
-              color: "#e9bc62"
-            }
+              color: "#e9bc62",
+            },
           ]
         },
         {
@@ -252,8 +252,8 @@ export default class Map extends Vue {
           elementType: "geometry",
           stylers: [
             {
-              color: "#e98d58"
-            }
+              color: "#e98d58",
+            },
           ]
         },
         {
@@ -261,8 +261,8 @@ export default class Map extends Vue {
           elementType: "geometry.stroke",
           stylers: [
             {
-              color: "#db8555"
-            }
+              color: "#db8555",
+            },
           ]
         },
         {
@@ -270,8 +270,8 @@ export default class Map extends Vue {
           elementType: "labels",
           stylers: [
             {
-              visibility: "off"
-            }
+              visibility: "off",
+            },
           ]
         },
         {
@@ -279,16 +279,16 @@ export default class Map extends Vue {
           elementType: "labels.text.fill",
           stylers: [
             {
-              color: "#806b63"
-            }
+              color: "#806b63",
+            },
           ]
         },
         {
           featureType: "transit",
           stylers: [
             {
-              visibility: "off"
-            }
+              visibility: "off",
+            },
           ]
         },
         {
@@ -296,8 +296,8 @@ export default class Map extends Vue {
           elementType: "geometry",
           stylers: [
             {
-              color: "#dfd2ae"
-            }
+              color: "#dfd2ae",
+            },
           ]
         },
         {
@@ -305,8 +305,8 @@ export default class Map extends Vue {
           elementType: "labels.text.fill",
           stylers: [
             {
-              color: "#8f7d77"
-            }
+              color: "#8f7d77",
+            },
           ]
         },
         {
@@ -314,8 +314,8 @@ export default class Map extends Vue {
           elementType: "labels.text.stroke",
           stylers: [
             {
-              color: "#ebe3cd"
-            }
+              color: "#ebe3cd",
+            },
           ]
         },
         {
@@ -323,8 +323,8 @@ export default class Map extends Vue {
           elementType: "geometry",
           stylers: [
             {
-              color: "#dfd2ae"
-            }
+              color: "#dfd2ae",
+            },
           ]
         },
         {
@@ -332,8 +332,8 @@ export default class Map extends Vue {
           elementType: "geometry.fill",
           stylers: [
             {
-              color: "#b9d3c2"
-            }
+              color: "#b9d3c2",
+            },
           ]
         },
         {
@@ -341,26 +341,20 @@ export default class Map extends Vue {
           elementType: "labels.text.fill",
           stylers: [
             {
-              color: "#92998d"
-            }
+              color: "#92998d",
+            },
           ]
         }
       ]
     });
 
-    // The marker, positioned at Uluru
-    // var marker = new google.maps.Marker({
-    //   position: scrippsBeachPosition,
-    //   map: map
-    // });
-
     weddingEventLocations.forEach(function(location) {
-      var marker = new google.maps.Marker({
+      const marker = new google.maps.Marker({
         position: location.position,
         title: location.name,
-        map: map,
+        map,
         label: location.name,
-        icon: location.icon
+        icon: location.icon,
       });
     });
   }

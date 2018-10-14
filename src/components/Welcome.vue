@@ -2,12 +2,6 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>{{ subtitle }}</p>
-    <p>
-      Click
-      <a href="https://www.theknot.com/us/colette-kent-and-jean-grandmaire-nov-2018" target="_blank" rel="noopener">here</a>
-       to access our main website.
-    </p>
-    
   </div>
 </template>
 

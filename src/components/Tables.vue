@@ -1,21 +1,26 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>{{ subtitle }}</p>
-    
+  <div>
+    <h2>Tables</h2>
+    <div v-for="table in tables">
+      <h3>{{ table.name }}</h3>
+      <p> {{ table.description}}</p>
+      <ul>
+        <li v-for="peep in table.people">{{ peep.name }}</li>
+      </ul>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from "vue-property-decorator";
+import { Table } from "@/main.ts";
 
 @Component
 export default class Tables extends Vue {
-  @Prop() private tables!: JSON;
+  @Prop()
+  private tables!: Table[];
 
-  mounted(){
-
-  }
+  mounted() {}
 }
 </script>
 
@@ -25,14 +30,18 @@ h3 {
   margin: 40px 0 0;
 }
 ul {
-  list-style-type: none;
   padding: 0;
 }
 li {
-  display: inline-block;
-  margin: 0 10px;
+  display: block;
+  margin: 10px;
 }
-a {
-  color: #42b983;
+
+p {
+  font-size: 12px;
+}
+
+li {
+  font-family: 'Nunito Sans', sans-serif;
 }
 </style>
