@@ -35,10 +35,12 @@ ul {
 li {
   display: block;
   margin: 10px;
+  font-size: 1.1em;
 }
 
 p {
-  font-size: 12px;
+  font-size: 0.9em;
+  margin: 10px 30px;
 }
 
 li {

@@ -19,7 +19,6 @@ import {Table, Language, HomeCountry, WeddingRole} from '@/main.ts'
 })
 
 export default class Home extends Vue {
-  
   public tablesData : Table[] = [
     {
       name: "Wat Chedi",

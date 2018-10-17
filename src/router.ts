@@ -2,6 +2,8 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
 import Map from './views/Map.vue';
+import AfterParty from './views/AfterParty.vue';
+import UberWiz from './views/UberWizard.vue';
 
 Vue.use(Router);
 
@@ -24,6 +26,16 @@ export default new Router({
       path: '/map',
       name: 'map',
       component: Map,
+    },
+    {
+      path: '/afterparty',
+      name: 'afterparty',
+      component: AfterParty,
+    },
+    {
+      path: '/uber',
+      name: 'uber',
+      component: UberWiz,
     },
   ],
 });
