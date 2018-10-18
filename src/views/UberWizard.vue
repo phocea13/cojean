@@ -6,28 +6,28 @@
 
     <template v-if="step === 1">
         <ul>
-            <li>Open you Android (left) or iOS (right) <em>Uber</em> app</li>
+            <li>Open you <span class="android">Android</span> or <span class="ios">iOS</span> <em>Uber</em> app</li>
             <li>Select the hamburger icon in the top left corner</li>
             <li>Select "Payment"</li>
         </ul>
-        <img class="screenshot" src="../assets/android1.png"/>
-        <img class="screenshot" src="../assets/iOS1.jpg"/>
+        <img class="screenshot android" src="../assets/android1.png"/>
+        <img class="screenshot ios" src="../assets/iOS1.jpg"/>
     </template>
     <template v-if="step === 2">
         <ul>
             <li>Scroll down if necessary</li>
             <li>Select "Add Promo Code"</li>
         </ul>
-        <img class="screenshot" src="../assets/android2.png"/>
-        <img class="screenshot" src="../assets/iOS2.jpg"/>
+        <img class="screenshot android" src="../assets/android2.png"/>
+        <img class="screenshot ios" src="../assets/iOS2.jpg"/>
         
     </template>
     <template v-if="step === 3">
         <ul>
             <li>Enter promo code: <em>eqw5jyq</em></li>
         </ul>
-        <img class="screenshot" src="../assets/android3.png"/>
-        <img class="screenshot" src="../assets/iOS3.jpg"/>
+        <img class="screenshot android" src="../assets/android3.png"/>
+        <img class="screenshot ios" src="../assets/iOS3.jpg"/>
     </template>
 
     <!-- Stepper Controls -->
@@ -78,6 +78,18 @@ li {
 
 .buttonContainer {
     margin: 15px 0;
+}
+
+.android {
+    border-color: #4CAF50;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.ios {
+    border-color: rgb(76, 119, 175);
+    border-style: solid;
+    border-width: 5px;
 }
 
 em {

@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div>
     <h1>Timeline</h1>
 
     <h3>Thursday, November 1st</h3>

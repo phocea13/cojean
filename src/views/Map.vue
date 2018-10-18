@@ -38,7 +38,7 @@ export default class Map extends Vue {
         }
       },
       {
-        name: "Pelicans Cove",
+        name: "Pelicans Cove (Kent House)",
         position: new google.maps.LatLng(32.863423, -117.253572),
         icon: {
           url: require("../assets/Croissant_30x30.png"),

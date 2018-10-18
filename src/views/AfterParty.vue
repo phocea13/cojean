@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>After Party</h1>
-    <h3>Beaumont's - 10:30 p.m.</h3>
+    <h3>Beaumont's @ 10:00 p.m.</h3>
     <img width="90%" src="https://static1.squarespace.com/static/5a2f237849fc2bdb0dddcf9b/5a5950a771c10b9c8c0efbb9/5a5950a724a6949edb6e7ee3/1515802796884/Beaumonts+Beer.jpg?format=1000w"/>
     <p>Transportation is on us.</p>
     <a href="/#/uber" class="myButton">Claim Uber Code</a>
