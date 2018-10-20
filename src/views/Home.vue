@@ -127,7 +127,16 @@ export default class Home extends Vue {
           name: "Catherine Hare"
         },
         {
-          name: "Evan Ludwid"
+          name: "Evan Ludwig"
+        },
+        {
+          name: "Rachel Leibman"
+        },
+        {
+          name: "Pierre Mahiet"
+        },
+        {
+          name: "Naomie Kalse"
         }
       ]
     },
@@ -232,7 +241,7 @@ export default class Home extends Vue {
         },
         {
           name: "Neerali Patel"
-        }
+        },
       ]
     }
   ]
