@@ -54,7 +54,7 @@ export default class UberWiz extends Vue {
   private uberCode: string = "eqw5jyq";
 
   copyUberCode() {
-    let testingCodeToCopy = document.querySelector("#uber-code");
+    let testingCodeToCopy = document.querySelector("#uber-code") as HTMLInputElement;
     if (testingCodeToCopy != null) {
       testingCodeToCopy.setAttribute("type", "text");
       testingCodeToCopy.select();
