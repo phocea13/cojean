@@ -53,6 +53,13 @@ Point Reyes Blue / White Balsamic Dressing</p>
         <li>Buckwheat Tabouleh & Cucumber Shiraze Salad</li>
         <p>Served with Babganoush</p>
     </ul>
+    <hr>
+
+    <h2>Specialty Drinks</h2>
+    <ul>
+        <li>French 75</li>
+        <li>Fresh Ginger-Lime Tonic (non-alcoholic)</li>
+    </ul>
 
 
   </div>
